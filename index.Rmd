@@ -19,9 +19,7 @@ A **data science process** includes:
 1. data science workflow (e.g. CRISP-DM)
 2. collaboration framework (e.g. Scrum)
 
-The data science workflow provides the **what** and the collaboration framework provides the **how**. A popular example of a data science process is:
-
-- **Microsoft**: Team Data Science Process (TDSP)
+The data science workflow provides the **what** and the collaboration framework provides the **how**.
 
 ## Collaboration Framework
 
@@ -38,7 +36,7 @@ The *focus* of this presentation is on collaboration frameworks. The three most 
 1. Kanban Overview
 2. Kanban + CRISP-DM
 
-**Scrum** for software development and **Data Driven Scrum** for data science are covered at the end. These frameworks could be too involved for NICD skills projects (to discuss). 
+**Scrum** for software development and [Data Driven Scrum](https://datadrivenscrum.com) for data science are not covered. These frameworks could be too involved for NICD skills projects? 
 
 # Kanban
 
@@ -67,8 +65,8 @@ A Kanban **board** contains **lists** (e.g. *To Do*, *Doing* and *Done*) that co
 A Kanban *Validation* list is after the *Doing* list and before the *Done* list. Advantages:
 
 - validating tasks generally improves the quality of the tasks completed and the project
-- a task done by one team member can be validated by another. This could help distribute skills across the team.
-- a task done by one or more team members can be validated by NICD. This could help identify learning opportunities.
+- a task done by one team member can be validated by another. This could help distribute skills across the team
+- a task done by one or more team members can be validated by NICD. This could help identify learning opportunities
 
 ## Kanban and CRISP-DM
 
@@ -95,23 +93,39 @@ Agile approach delivers the features sequentially:
 - **No Time Box**: tasks do not require an estimation of time to completion
 - **Adaptable**: no defined roles, meetings and artefacts so easy to integrate
 
-## Kanban Challenges
+## Sessions
+
+Kanban could be enhanced by defining and referencing some project sessions. 
+
+1. project kick-off sessions
+2. skills transfer sessions
+    - broad structure
+    - no organisation managers
+    - NICD members $\leq$ organisation members
+3. preparation sessions
+4. project review sessions
+    - narrow structure
+    - no limits on NICD or organisation members
+
+## Kanban + Sessions
 
 - **Time?** Only add tasks to the *To Do* list that can be complete within the time between skills transfer sessions. Validation of these tasks could be done during preparation sessions.
-- **Meetings?** Skills transfer sessions every one or two weeks could be supplemented with a project review session after each phase is complete? 
-- **Roles?** One team member could be given the responsibility to allocate tasks?
+- **Sessions?** Skills transfer sessions every one or two weeks could be supplemented with a project review session after each phase is complete? 
+- **Roles?** One team member could be given the responsibility to lead between skills transfer sessions?
 
-# Scrum
+# Plan
 
-## Scrum Pillars
+## Plan
 
-The **empirically** developed scrum pillars are:
+With the time I have left:
 
-![](figures/scrum-theory.png){width=100%}
-
-## Scrum Framework
-
-![](figures/scrum-workflow.png){width=90%}
-
-The scrum workflow has three **roles**, five **events** and three **artefacts**. It can also be integrated with Kanban. You can learn about scrum at [scrum.org](https://www.scrum.org/resources/what-is-scrum). 
-
+1. start writing the NICD process guide:
+    - project template (clean, wrangle and model)
+    - data science workflow (e.g. CRISP-DM, task advice)
+    - collaboration framework (e.g. Kanban, roles, sessions)
+2. complete the project kick-off presentations
+3. improve project template
+    - Python and R template scripts
+    - option to generate virtualenv
+  
+# Questions?
